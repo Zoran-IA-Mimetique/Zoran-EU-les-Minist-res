@@ -1,0 +1,19 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ZoranSoin-MinimalProfile",
+  "url": "http://zoran-asim.local/fhir/StructureDefinition/ZoranSoin-MinimalProfile",
+  "name": "ZoranSoinMinimal",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.generalPractitioner",
+        "path": "Patient.generalPractitioner"
+      }
+    ]
+  }
+}

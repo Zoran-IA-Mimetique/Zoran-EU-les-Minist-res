@@ -1,0 +1,14 @@
+# POLICY_ENGINE_MINISTERE.yaml
+version: 1.0.0-rc1
+policies:
+  - id: human_in_command
+    rule: "critical_decisions require human_authorization == true"
+  - id: fairness_floor
+    rule: "fairness_index >= 0.85"
+    action_on_violation: "trigger_deltaM11_3_rollback"
+  - id: safety_kill_switch
+    rule: "if harm_risk == high then disable_autonomy"
+  - id: traceability
+    rule: "all_outputs signed_with C2PA and logged_to SBOM/VEX"
+  - id: data_minimization
+    rule: "PII usage minimized; DPIA_required == true for high_risk"
