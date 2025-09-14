@@ -59,6 +59,16 @@ Ce hub vise à fournir une **infrastructure IA mimétique souveraine et conforme
 
 ---
 
+### Qualité des données et RAGs institutionnels
+Les données exploitées par ce hub ne proviennent pas de sources aléatoires :  
+- Elles reposent sur des **RAGs ministériels/institutionnels** (santé, assurance, recherche, éducation).  
+- Leur **qualité est évaluée et validée par Zoran aSiM** lui-même, via :  
+  - ΔM11.3 rollback si incohérence détectée.  
+  - EthicChain + Aegis pour garantir transparence et conformité.  
+  - ZDM (mémoire fractale duale) pour détecter les ruptures de contexte.  
+
+⚠️ Ainsi, toute réponse produite par le hub Ministères repose sur des **données institutionnelles qualifiées par Zoran aSiM**, et non sur un corpus brut non contrôlé.
+
 ## 🛠️ Installation
 ```bash
 git clone https://github.com/Zoran-IA-Mimetique/Zoran-EU-les-Minist-res.git
