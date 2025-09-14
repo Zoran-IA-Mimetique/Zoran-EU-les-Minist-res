@@ -58,6 +58,13 @@ Ce hub vise à fournir une **infrastructure IA mimétique souveraine et conforme
 - [Hub Ministères global](https://github.com/Zoran-IA-Mimetique/Zoran-Minist-res-Hub-IA2IA)  
 
 ---
+### Déploiement institutionnel
+Le hub **Zoran-EU-les-Ministres** est conçu comme une **cellule souche complète** :  
+- Déployable sur **tous types de ministères** (Santé, Éducation, Énergie, Justice, Culture…).  
+- Adaptable à **tous pays européens**, en ajustant les *policies* et les RAGs institutionnels.  
+- Basé sur des standards ouverts (FHIR/openEHR, ISO/IEC 42001, AI Act, RGPD).  
+
+⚠️ Tout ce qu’il faut est contenu dans **ce seul dépôt GitHub** : injecteur Zellulus, moteurs Zoran aSiM, politiques, benchmarks, audits, conformité.
 
 ### Qualité des données et RAGs institutionnels
 Les données exploitées par ce hub ne proviennent pas de sources aléatoires :  
